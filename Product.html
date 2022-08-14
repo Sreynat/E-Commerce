@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" href="4471d047b44ed3040125bf7fa2aea843.webp">
+    <title>Product</title>
+    <style>
+      img{
+          width: 100%;
+          height: 100%;
+      }
+      @media (max-width:500px){
+        header{
+          margin-right: 10px;
+        }
+      }
+      @media (max-width: 1000px) {  
+                .navbar-nav{
+                    display: block;
+                    font-size: 25px;
+                    line-height: 8vh;
+                    width: 100%;
+
+                }
+                .nav-item{
+                    text-align: center;
+                    border-bottom: 1px solid white;
+                }
+            }
+            .navbar-custom .nav-item:hover .nav-link{
+                color: red;
+       }
+  </style>
+</head>
+<body>
+    <div class="container-fluid">
+        <header class="bg-secondary">
+            <div class="pt-2 pb-2 text-white ms-3">
+              <div class="row justify-content-between">
+                <div class="col-4"
+                      <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                          <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1h1a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1h1a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1h1a.5.5 0 0 1-.5-.5z"/>
+                      </svg>
+                      <span class="ms-4"><img class="rounded rounded-circle" src="4471d047b44ed3040125bf7fa2aea843.webp" style="width:40px;height:40px;"></span>
+                </div>
+                <div class="col-4">
+                  <div class="d-flex pt-2 ms-5 ">
+                          <p class=" fw-bold fs-5 ms-5">SIGN IN</p>
+                          <span class="ms-4 me-4"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-person-fill" viewBox="0 0 16 16">
+                              <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1h1zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+                            </svg></span>
+                          <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-cart-plus" viewBox="0 0 16 16">
+                              <path d="M9 5.5a.5.5 0 0 0-1 0V7H6.5a.5.5 0 0 0 0 1H8v1.5a.5.5 0 0 0 1 0V8h1.5a.5.5 0 0 0 0-1H9V5.5z"/>
+                              <path d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1H.5zm3.915 10L3.102 4h10.796l-1.313 7h-8.17zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
+                          </svg>
+                      </div>
+                  </div>
+              </div>
+            </div>
+        </header>
+        <form class="mt-3 form-group d-flex container-fluid ">
+            <input type="text" class="form-control " placeholder="Search">
+            <button class=" ml-2 btn btn-primary">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                    <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                  </svg>
+            </button>
+        </form>
+        <nav class="navbar navbar-expand-lg bg-secondary navbar-dark justify-content-center navbar-custom">
+            <ul class="navbar-nav">
+                <li class="nav-item ms-2">
+                    <a href="#" class="nav-link text-white">Home
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-house-fill" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="m8 3.293 6 6V13.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5V9.293l6-6zm5-.793V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z"/>
+                            <path fill-rule="evenodd" d="M7.293 1.5a1 1 0 0 1 1.414 0l6.647 6.646a.5.5 0 0 1-.708.708L8 2.207 1.354 8.854a.5.5 0 1 1-.708-.708L7.293 1.5z"/>
+                          </svg>
+                    </a>
+                </li>
+                <li class="nav-item ms-2">
+                    <a href="#" class="nav-link text-white"">Product
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-shop" viewBox="0 0 16 16">
+                            <path d="M2.97 1.35A1 1 0 0 1 3.73 1h8.54a1 1 0 0 1 .76.35l2.609 3.044A1.5 1.5 0 0 1 16 5.37v.255a2.375 2.375 0 0 1-4.25 1.458A2.371 2.371 0 0 1 9.875 8 2.37 2.37 0 0 1 8 7.083 2.37 2.37 0 0 1 6.125 8a2.37 2.37 0 0 1-1.875-.917A2.375 2.375 0 0 1 0 5.625V5.37a1.5 1.5 0 0 1 .361-.976l2.61-3.045zm1.78 4.275a1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0 1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0 1.375 1.375 0 1 0 2.75 0V5.37a.5.5 0 0 0-.12-.325L12.27 2h1.73L1.12 5.045A.5.5 0 0 0 1 5.37v.255a1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0zM1.5 8.5A.5.5 0 0 1 2 9v6h1v-5a1 1 0 0 1 1-1h1a1 1 0 0 1 1 1v5h6V9a.5.5 0 0 1 1 0v6h.5a.5.5 0 0 1 0 1H.5a.5.5 0 0 1 0-1H1V9a.5.5 0 0 1 .5-.5zM4 15h1v-5H4v5zm5-5a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1v-3zm3 0h-2v3h2v-3z"/>
+                          </svg>
+                    </a>
+                </li>
+                <li class="nav-item ms-2">
+                    <a href="#" class="nav-link text-white"">Service
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-hand-thumbs-up-fill" viewBox="0 0 16 16">
+                            <path d="M6.956 1.745C7.021.81 7.908.087 8.864.325l.261.066c.463.116.874.456 1.012.965.22.816.533 2.511.062 4.51a9.84 9.84 0 0 1 .443-.051c.713-.065 1.669-.072 2.516.21.518.173.994.681 1.2 1.273.184.532.16 1.162-.234 1.733.058.119.103.242.138.363.077.27.113.567.113.856 0 .289-.036.586-.113.856-.039.135-.09.273-.16.404.169.387.107.819-.003 1.148a3.163 3.163 0 0 1-.488.901c.054.152.076.312.076.465 0 .305-.089.625-.253.912C13.1 15.522 12.437 16 11.5 16H8c-.605 0-1.07-.081-1.466-.218a4.82 4.82 0 0 1-.97-.484l-.048-.03c-.504-.307-.999-.609-2.068-.722C2.682 14.464 2 13.846 2 13V9c0-.85.685-1.432 1.357-1.615.849-.232 1.574-.787 2.132-1.41.56-.627.914-1.28 1.039-1.639.199-.575.356-1.539.428-2.59z"/>
+                          </svg>
+                    </a>
+                </li>
+                <li class="nav-item ms-2">
+                    <a href="#" class="nav-link text-white"">Contact
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-lines-fill" viewBox="0 0 16 16">
+                            <path d="M6 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm-5 6s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H1zM11 3.5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 0 1h-4a.5.5 0 0 1-.5-.5zm.5 2.5a.5.5 0 0 0 0 1h4a.5.5 0 0 0 0-1h-4zm2 3a.5.5 0 0 0 0 1h2a.5.5 0 0 0 0-1h-2zm0 3a.5.5 0 0 0 0 1h2a.5.5 0 0 0 0-1h-2z"/>
+                          </svg>
+                    </a>
+                </li>
+                <li class="nav-item ms-2">
+                    <a href="#" class="nav-link text-white"">About us
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-file-person-fill" viewBox="0 0 16 16">
+                            <path d="M12 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zm-1 7a3 3 0 1 1-6 0 3 3 0 0 1 6 0zm-3 4c2.623 0 4.146.826 5 1.755V14a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1v-1.245C3.854 11.825 5.377 11 8 11z"/>
+                          </svg>
+                    </a>
+                </li>
+                <li class="nav-item ms-2">
+                  <a href="#" class="nav-link text-white">On Sale
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bell-fill" viewBox="0 0 16 16">
+                      <path d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2zm.995-14.901a1 1 0 1 0-1.99 0A5.002 5.002 0 0 0 3 6c0 1.098-.5 6-2 7h14c-1.5-1-2-5.902-2-7 0-2.42-1.72-4.44-4.005-4.901z"/>
+                    </svg>
+                  </a>
+                </li>
+                <li class="nav-item ">
+                  <a href="#" class="nav-link text-white">In Stock
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-shop" viewBox="0 0 16 16">
+                      <path d="M2.97 1.35A1 1 0 0 1 3.73 1h8.54a1 1 0 0 1 .76.35l2.609 3.044A1.5 1.5 0 0 1 16 5.37v.255a2.375 2.375 0 0 1-4.25 1.458A2.371 2.371 0 0 1 9.875 8 2.37 2.37 0 0 1 8 7.083 2.37 2.37 0 0 1 6.125 8a2.37 2.37 0 0 1-1.875-.917A2.375 2.375 0 0 1 0 5.625V5.37a1.5 1.5 0 0 1 .361-.976l2.61-3.045zm1.78 4.275a1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0 1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0 1.375 1.375 0 1 0 2.75 0V5.37a.5.5 0 0 0-.12-.325L12.27 2H3.73L1.12 5.045A.5.5 0 0 0 1 5.37v.255a1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0zM1.5 8.5A.5.5 0 0 1 2 9v6h1v-5a1 1 0 0 1 1-1h3a1 1 0 0 1 1 1v5h6V9a.5.5 0 0 1 1 0v6h.5a.5.5 0 0 1 0 1H.5a.5.5 0 0 1 0-1H1V9a.5.5 0 0 1 .5-.5zM4 15h3v-5H4v5zm5-5a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1v-3zm3 0h-2v3h2v-3z"/>
+                    </svg>
+                  </a>
+                </li>
+                <li class="nav-item ms-2">
+                  <a href="#" class="nav-link text-white">New Collection
+                    <i class="fa fa-shirt"></i>
+                  </a>
+                </li>
+                <li class="nav-item ms-2">
+                  <a href="#" class="nav-link text-white">Off on Friday</a>
+                </li>
+            </ul>
+        </nav>
+        <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+            <!-- Indicators/dots -->
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+              <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+              <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+              <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
+              <button type="button" data-bs-target="#demo" data-bs-slide-to="4"></button>
+            </div>
+            
+            <!-- The slideshow/carousel -->
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="shopping.jpg" class="d-block" style="width:100%">
+                <div class="carousel-caption text-black">
+                  <h1>Happy With Shopping</h1>
+                  <h3>Fast Delivery</h3>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="wingggggggggg.jpg" class="d-block" style="width:100%">
+                <div class="carousel-caption text-black">
+                  <h1>Our Sponsor</h1>
+                  <h3>Wing Delivery</h3>
+                </div> 
+              </div>
+              <div class="carousel-item">
+                <img src="01_preview6.jpg"  class="d-block" style="width:100%">
+                <div class="carousel-caption text-black">
+                  <h1>New Red Shoes</h1>
+                  <h3>Modern Style</h3>
+                </div>  
+              </div>
+              <div class="carousel-item">
+                <img src="r7d5eu8bn3piom8tjzny.webp"  class="d-block" style="width:100%">
+                <div class="carousel-caption">
+                  <h1>New Fashion in Stock</h1>
+                  <h3>65% OFF</h3>
+                </div> 
+              </div>
+              <div class="carousel-item">
+                <img src="pre_bf_web_banner_1416x1108-1140x700.png" class="d-block" style="width:100%">
+                <div class="carousel-caption">
+                  <h1>Black Friday</h1>
+                  <h3>70% OFF every friday</h3>
+                </div>  
+              </div>
+            </div>
+            
+            <!-- Left and right controls/icons -->
+            <button class="carousel-control-prev " type="button" data-bs-target="#demo" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon "></span>
+            </button>
+            <button class="carousel-control-next  type="button" data-bs-target="#demo" data-bs-slide="next">
+              <span class="carousel-control-next-icon "></span>
+            </button>
+          </div>
+        <!--Best sale-->
+        <div class="mt-3 ">
+            <h1 class="fw-bold text-success display-1 text-decoration-underline">Best Sale
+              <sup><img class="rounded rounded-pill" src="istockphoto-1187366305-612x612.jpg" style="width:50px;height:50px;"</sup>
+            </h1>
+          <div class="container-fluid  mt-4">
+            <div class="row">
+              <div class="col-lg-3 col-md-6 col-lg-2 border">
+                <img class="ms-4" src="all-star-high-top-sneaker-black-and-white.jpg" style="width:80%;height: 70%;" >
+                <div class="text-center">
+                   <h4 class="text-secondary mt-3">Converse Shoes</h4>
+                  <h1>10.00<sup>$</sup><span class="fs-6">only</span></h1>
+                  <div class="btn btn-primary mb-4">Buy now</div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6 col-lg-2 border">
+                <img class="ms-5" src="images.jpg" style="width:80%;height:70%;">
+                <div class="text-center">
+                  <h4 class="text-secondary mt-3">Dior New Fashion</h4>
+                  <h1>15.00<sup>$</sup><span class="fs-6">only</span></h1>
+                  <div class="btn btn-primary mb-4">Buy now</div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6 col-lg-2 border" >
+                <img class="ms-5" src="428.jpg" style="width:80%;height:70%;">
+                <div class="text-center">
+                  <h4 class="text-secondary mt-3">Celine T-Shirt <sup class="badge bg-danger rounded-pill fs-6 align-text-top">New</sup></h4>
+                  <h1>10.00<sup>$</sup><span class="fs-6">only</span></h1>
+                  <div class="btn btn-primary mb-4">Buy now</div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6 col-lg-2 border" >
+                <img class="ms-4" src="Vintage-A-Line-Printed-Pleated-Flared-High-Waist-Skirts-with-Pockets.jpg" style="width:80%;height:70%;">
+                <div class="text-center">
+                  <h4 class="text-secondary mt-3">Channel Skirt</h4>
+                  <h1>20.00<sup>$</sup><span class="fs-6">only</span></h1>
+                  <div class="btn btn-primary mb-4">Buy now</div>
+                </div>
+              </div>
+            </div>
+        </div>
+      </div>
+      <br>
+        <!--New Arrival-->
+      <div class="container-fluid  mt-5">
+          <h1 class="fw-bold text-primary display-1 text-decoration-underline position-relative">New Arrival
+            <sup class="badge bg-danger fs-6 align-top  rounded-pill position-absolute">99+</sup>
+          </h1>
+            <div class="row mt-5">
+            <div class="col-lg-3  col-md-6 col-sm-12 border">
+              <img class="ms-5" src="18STRAWBERRYDRESS-4-mobileMasterAt3x.jpg" style="width: 80%;height:70% ;" >
+              <div class="text-center">
+                <h4 class="text-secondary mt-3">Rasberry Dress Sweet</h4>
+                <h5><span class="text-decoration-line-through fs-6">20.00<sup>$</sup></span> <span class="fs-1">15.00<sup>$</sup></span></h5>
+                <div>From 10<sup>th</sup> until 30<sup>th</sup></div>
+                <div class="btn btn-primary mt-3 mb-5">Buy now</div>
+              </div>
+            </div>
+            <div class="col-lg-3  col-md-6 col-sm-12 border">
+              <img class="ms-5" src="dior-tw.webp" style="width: 80%;height:70% ;">
+              <div class="text-center">
+                <h4 class="text-secondary mt-3">Dior Bag Collection</h4>
+                <h5><span class="text-decoration-line-through fs-6">50.00<sup>$</sup></span> <span class="fs-1">25.00<sup>$</sup></span></h5>
+                <div>From 10<sup>th</sup> until 30<sup>th</sup></div>
+                <div class="btn btn-primary mt-3 mb-5">Buy now</div>
+              </div>
+            </div>
+            <div class="col-lg-3  col-md-6 col-sm-12 border">
+              <img class="ms-5" src="louis-vuitton-black-lv-stitch-print-embroidered-t-shirt-tee-shirt-size-10-m-0-1-650-650.jpg" style="width: 80%;height:70% ;" >
+              <div class="text-center">
+                <h4 class="text-secondary mt-3">Louis Vuitton T-Shirt</h4>
+                  <h1>15.00<sup>$</sup><span class="fs-6">only</span></h1>
+                <div class="btn btn-primary mt-4 mb-3">Buy now</div>
+              </div>
+            </div>
+            <div class="col-lg-3  col-md-6 col-sm-12 border">
+              <img class="ms-5" src="Prada-TShirts-for-Men-99911170_800x800.jpg" style="width: 80%;height:70% ;" >
+              <div class="text-center">
+                <h4 class="text-secondary mt-3">Prada Couple T-Shirt</h4>
+                <h1>20.00<sup>$</sup><span class="fs-6">only</span></h1>
+                <div class="btn btn-primary mt-4 mb-5">Buy now</div>
+              </div>
+            </div>
+      </div>
+    </div>
+    <footer class="bg-secondary mt-5">
+      <div class="row mt-5">
+        <div class="col-4">
+
+        </div>
+        <div class="col-4"></div>
+        <div class="col-4"></div>
+        <p class="text-center mt-2">Copyright &copy; All Right Reserved : Family Market 2022</p>
+      </div>
+    </footer>
+</body>
+</html>
